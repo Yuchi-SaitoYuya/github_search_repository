@@ -31,3 +31,44 @@ extension Repository {
         """
     }
 }
+
+// Repositoryを対象としたSearchResponseに、サンプルJSON文字列を提供する拡張
+extension SearchResponse where Item == Repository {
+    // サンプルJSON（GitHubの /search/repositories レスポンスに相当）
+    static var exampleJSON: String {
+        return """
+        {
+            "total_count": 141722,
+            "items": [
+                {
+                    "id": 44838949,
+                    "name": "swift",
+                    "full_name": "apple/swift",
+                    "owner": {
+                        "id": 10639145,
+                        "login": "apple"
+                    }
+                },
+                {
+                    "id": 790019,
+                    "name": "swift",
+                    "full_name": "openstack/swift",
+                    "owner": {
+                        "id": 324574,
+                        "login": "openstack"
+                    }
+                },
+                {
+                    "id": 20822291,
+                    "name": "SwiftGuide",
+                    "full_name": "ipader/SwiftGuide",
+                    "owner": {
+                        "id": 373016,
+                        "login": "ipader"
+                    }
+                }
+            ]
+        }
+        """
+    }
+}
