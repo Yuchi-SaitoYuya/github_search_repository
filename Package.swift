@@ -1,4 +1,4 @@
-// swift-tooisl-version:5.8
+// swift-tools-version:5.9
 
 // Swift Package Manager 用の定義を使うためのインポート
 import PackageDescription

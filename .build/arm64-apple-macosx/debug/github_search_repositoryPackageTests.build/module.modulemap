@@ -1,0 +1,4 @@
+module github_search_repositoryPackageTests {
+    header "/Users/yuyasaito/Desktop/個人開発/github_search_repository/.build/arm64-apple-macosx/debug/github_search_repositoryPackageTests.build/github_search_repositoryPackageTests-Swift.h"
+    requires objc
+}
