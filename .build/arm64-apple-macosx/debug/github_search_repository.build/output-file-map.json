@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/yuyasaito/Desktop/個人開発/github_search_repository/.build/arm64-apple-macosx/debug/github_search_repository.build/master.swiftdeps"
+  },
+  "/Users/yuyasaito/Desktop/個人開発/github_search_repository/Sources/github_search_repository/main.swift": {
+    "dependencies": "/Users/yuyasaito/Desktop/個人開発/github_search_repository/.build/arm64-apple-macosx/debug/github_search_repository.build/main.d",
+    "object": "/Users/yuyasaito/Desktop/個人開発/github_search_repository/.build/arm64-apple-macosx/debug/github_search_repository.build/main.swift.o",
+    "swiftmodule": "/Users/yuyasaito/Desktop/個人開発/github_search_repository/.build/arm64-apple-macosx/debug/github_search_repository.build/main~partial.swiftmodule",
+    "swift-dependencies": "/Users/yuyasaito/Desktop/個人開発/github_search_repository/.build/arm64-apple-macosx/debug/github_search_repository.build/main.swiftdeps"
+  }
+}

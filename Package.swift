@@ -8,6 +8,14 @@ let package = Package(
     // パッケージ名（通常はルートディレクトリと同じ名前）
     name: "github_search_repository",
 
+    // 追加：プロダクトの定義（executable を明示）
+    products: [
+        .executable(
+            name: "github_search_repository",
+            targets: ["github_search_repository"]
+        )
+    ],
+
     // ビルド対象（ターゲット）の配列
     targets: [
         // ライブラリターゲット: GitHub検索のロジックやモデルなどを含む
@@ -22,7 +30,7 @@ let package = Package(
         ),
 
         // 実行ターゲット: アプリのエントリーポイント（CLIやUI処理など）
-        .target(
+        .executableTarget( // ← .target ではなく .executableTarget に変更
             name: "github_search_repository",
             dependencies: ["GitHubSearch"]
         ),
