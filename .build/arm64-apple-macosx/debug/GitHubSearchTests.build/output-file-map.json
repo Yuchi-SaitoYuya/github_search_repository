@@ -8,6 +8,12 @@
     "swiftmodule": "/Users/yuyasaito/Desktop/個人開発/github_search_repository/.build/arm64-apple-macosx/debug/GitHubSearchTests.build/ExampleJSON~partial.swiftmodule",
     "swift-dependencies": "/Users/yuyasaito/Desktop/個人開発/github_search_repository/.build/arm64-apple-macosx/debug/GitHubSearchTests.build/ExampleJSON.swiftdeps"
   },
+  "/Users/yuyasaito/Desktop/個人開発/github_search_repository/Tests/GitHubSearchTests/GitHubAPIErrorTests.swift": {
+    "dependencies": "/Users/yuyasaito/Desktop/個人開発/github_search_repository/.build/arm64-apple-macosx/debug/GitHubSearchTests.build/GitHubAPIErrorTests.d",
+    "object": "/Users/yuyasaito/Desktop/個人開発/github_search_repository/.build/arm64-apple-macosx/debug/GitHubSearchTests.build/GitHubAPIErrorTests.swift.o",
+    "swiftmodule": "/Users/yuyasaito/Desktop/個人開発/github_search_repository/.build/arm64-apple-macosx/debug/GitHubSearchTests.build/GitHubAPIErrorTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/yuyasaito/Desktop/個人開発/github_search_repository/.build/arm64-apple-macosx/debug/GitHubSearchTests.build/GitHubAPIErrorTests.swiftdeps"
+  },
   "/Users/yuyasaito/Desktop/個人開発/github_search_repository/Tests/GitHubSearchTests/RepositoryTests.swift": {
     "dependencies": "/Users/yuyasaito/Desktop/個人開発/github_search_repository/.build/arm64-apple-macosx/debug/GitHubSearchTests.build/RepositoryTests.d",
     "object": "/Users/yuyasaito/Desktop/個人開発/github_search_repository/.build/arm64-apple-macosx/debug/GitHubSearchTests.build/RepositoryTests.swift.o",

@@ -2,6 +2,18 @@
   "": {
     "swift-dependencies": "/Users/yuyasaito/Desktop/個人開発/github_search_repository/.build/arm64-apple-macosx/debug/GitHubSearch.build/master.swiftdeps"
   },
+  "/Users/yuyasaito/Desktop/個人開発/github_search_repository/Sources/GitHubSearch/GitHubAPIError.swift": {
+    "dependencies": "/Users/yuyasaito/Desktop/個人開発/github_search_repository/.build/arm64-apple-macosx/debug/GitHubSearch.build/GitHubAPIError.d",
+    "object": "/Users/yuyasaito/Desktop/個人開発/github_search_repository/.build/arm64-apple-macosx/debug/GitHubSearch.build/GitHubAPIError.swift.o",
+    "swiftmodule": "/Users/yuyasaito/Desktop/個人開発/github_search_repository/.build/arm64-apple-macosx/debug/GitHubSearch.build/GitHubAPIError~partial.swiftmodule",
+    "swift-dependencies": "/Users/yuyasaito/Desktop/個人開発/github_search_repository/.build/arm64-apple-macosx/debug/GitHubSearch.build/GitHubAPIError.swiftdeps"
+  },
+  "/Users/yuyasaito/Desktop/個人開発/github_search_repository/Sources/GitHubSearch/GitHubClientError.swift": {
+    "dependencies": "/Users/yuyasaito/Desktop/個人開発/github_search_repository/.build/arm64-apple-macosx/debug/GitHubSearch.build/GitHubClientError.d",
+    "object": "/Users/yuyasaito/Desktop/個人開発/github_search_repository/.build/arm64-apple-macosx/debug/GitHubSearch.build/GitHubClientError.swift.o",
+    "swiftmodule": "/Users/yuyasaito/Desktop/個人開発/github_search_repository/.build/arm64-apple-macosx/debug/GitHubSearch.build/GitHubClientError~partial.swiftmodule",
+    "swift-dependencies": "/Users/yuyasaito/Desktop/個人開発/github_search_repository/.build/arm64-apple-macosx/debug/GitHubSearch.build/GitHubClientError.swiftdeps"
+  },
   "/Users/yuyasaito/Desktop/個人開発/github_search_repository/Sources/GitHubSearch/Repository.swift": {
     "dependencies": "/Users/yuyasaito/Desktop/個人開発/github_search_repository/.build/arm64-apple-macosx/debug/GitHubSearch.build/Repository.d",
     "object": "/Users/yuyasaito/Desktop/個人開発/github_search_repository/.build/arm64-apple-macosx/debug/GitHubSearch.build/Repository.swift.o",
