@@ -19,11 +19,49 @@ public protocol GitHubRequest {
     var queryItems: [URLQueryItem] { get }
 }
 
-// GitHubRequestに共通のベースURLを提供する拡張
+// GitHubRequest に共通の処理（ベースURL、URLRequest生成、レスポンスパース）を提供する拡張
 public extension GitHubRequest {
 
-    // デフォルトのbaseURL（すべてのGitHub API共通）
+    // ✅ 共通のベースURL（GitHubの全APIで使用される）
     var baseURL: URL {
         return URL(string: "https://api.github.com")!
+    }
+
+    // ✅ URLRequest を構築する共通処理
+    func buildURLRequest() throws -> URLRequest {
+        // baseURL + path を結合してURLを作成（例: https://api.github.com/search/repositories）
+        let url = baseURL.appendingPathComponent(path)
+
+        // URLComponents を使ってクエリパラメータを組み立てる
+        var components = URLComponents(url: url, resolvingAgainstBaseURL: true)
+
+        // メソッドが GET の場合のみ、クエリパラメータをURLに含める
+        switch method {
+        case .get:
+            components?.queryItems = queryItems
+        default:
+            // 他のHTTPメソッドには未対応（今後の拡張対象）
+            fatalError("Unsupported method \(method)")
+        }
+
+        // URLRequest を作成し、URLとHTTPメソッドをセット
+        var urlRequest = URLRequest(url: url)
+        urlRequest.url = components?.url
+        urlRequest.httpMethod = method.rawValue
+
+        return urlRequest
+    }
+
+    // ✅ レスポンスデータから Response 型へ変換する共通処理
+    func response(from data: Data, urlResponse: HTTPURLResponse) throws -> Response {
+        let decoder = JSONDecoder()
+
+        // ステータスコードが 2xx のとき → 正常なレスポンスとしてパース
+        if (200..<300).contains(urlResponse.statusCode) {
+            return try decoder.decode(Response.self, from: data)
+        } else {
+            // それ以外（4xx, 5xx）は GitHubAPIError としてパースして throw
+            throw try decoder.decode(GitHubAPIError.self, from: data)
+        }
     }
 }
