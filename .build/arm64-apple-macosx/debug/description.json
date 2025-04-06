@@ -28,11 +28,31 @@
       "inputs" : [
         {
           "kind" : "file",
+          "name" : "/Users/yuyasaito/Desktop/個人開発/github_search_repository/Sources/GitHubSearch/GitHubAPI.swift"
+        },
+        {
+          "kind" : "file",
           "name" : "/Users/yuyasaito/Desktop/個人開発/github_search_repository/Sources/GitHubSearch/GitHubAPIError.swift"
         },
         {
           "kind" : "file",
+          "name" : "/Users/yuyasaito/Desktop/個人開発/github_search_repository/Sources/GitHubSearch/GitHubClient.swift"
+        },
+        {
+          "kind" : "file",
           "name" : "/Users/yuyasaito/Desktop/個人開発/github_search_repository/Sources/GitHubSearch/GitHubClientError.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yuyasaito/Desktop/個人開発/github_search_repository/Sources/GitHubSearch/GitHubRequest.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yuyasaito/Desktop/個人開発/github_search_repository/Sources/GitHubSearch/HTTPClient.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yuyasaito/Desktop/個人開発/github_search_repository/Sources/GitHubSearch/HTTPMethod.swift"
         },
         {
           "kind" : "file",
@@ -59,8 +79,13 @@
       "moduleName" : "GitHubSearch",
       "moduleOutputPath" : "/Users/yuyasaito/Desktop/個人開発/github_search_repository/.build/arm64-apple-macosx/debug/Modules/GitHubSearch.swiftmodule",
       "objects" : [
+        "/Users/yuyasaito/Desktop/個人開発/github_search_repository/.build/arm64-apple-macosx/debug/GitHubSearch.build/GitHubAPI.swift.o",
         "/Users/yuyasaito/Desktop/個人開発/github_search_repository/.build/arm64-apple-macosx/debug/GitHubSearch.build/GitHubAPIError.swift.o",
+        "/Users/yuyasaito/Desktop/個人開発/github_search_repository/.build/arm64-apple-macosx/debug/GitHubSearch.build/GitHubClient.swift.o",
         "/Users/yuyasaito/Desktop/個人開発/github_search_repository/.build/arm64-apple-macosx/debug/GitHubSearch.build/GitHubClientError.swift.o",
+        "/Users/yuyasaito/Desktop/個人開発/github_search_repository/.build/arm64-apple-macosx/debug/GitHubSearch.build/GitHubRequest.swift.o",
+        "/Users/yuyasaito/Desktop/個人開発/github_search_repository/.build/arm64-apple-macosx/debug/GitHubSearch.build/HTTPClient.swift.o",
+        "/Users/yuyasaito/Desktop/個人開発/github_search_repository/.build/arm64-apple-macosx/debug/GitHubSearch.build/HTTPMethod.swift.o",
         "/Users/yuyasaito/Desktop/個人開発/github_search_repository/.build/arm64-apple-macosx/debug/GitHubSearch.build/Repository.swift.o",
         "/Users/yuyasaito/Desktop/個人開発/github_search_repository/.build/arm64-apple-macosx/debug/GitHubSearch.build/SearchResponse.swift.o",
         "/Users/yuyasaito/Desktop/個人開発/github_search_repository/.build/arm64-apple-macosx/debug/GitHubSearch.build/User.swift.o"
@@ -120,11 +145,31 @@
       "outputs" : [
         {
           "kind" : "file",
+          "name" : "/Users/yuyasaito/Desktop/個人開発/github_search_repository/.build/arm64-apple-macosx/debug/GitHubSearch.build/GitHubAPI.swift.o"
+        },
+        {
+          "kind" : "file",
           "name" : "/Users/yuyasaito/Desktop/個人開発/github_search_repository/.build/arm64-apple-macosx/debug/GitHubSearch.build/GitHubAPIError.swift.o"
         },
         {
           "kind" : "file",
+          "name" : "/Users/yuyasaito/Desktop/個人開発/github_search_repository/.build/arm64-apple-macosx/debug/GitHubSearch.build/GitHubClient.swift.o"
+        },
+        {
+          "kind" : "file",
           "name" : "/Users/yuyasaito/Desktop/個人開発/github_search_repository/.build/arm64-apple-macosx/debug/GitHubSearch.build/GitHubClientError.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yuyasaito/Desktop/個人開発/github_search_repository/.build/arm64-apple-macosx/debug/GitHubSearch.build/GitHubRequest.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yuyasaito/Desktop/個人開発/github_search_repository/.build/arm64-apple-macosx/debug/GitHubSearch.build/HTTPClient.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yuyasaito/Desktop/個人開発/github_search_repository/.build/arm64-apple-macosx/debug/GitHubSearch.build/HTTPMethod.swift.o"
         },
         {
           "kind" : "file",
@@ -145,8 +190,13 @@
       ],
       "prepareForIndexing" : false,
       "sources" : [
+        "/Users/yuyasaito/Desktop/個人開発/github_search_repository/Sources/GitHubSearch/GitHubAPI.swift",
         "/Users/yuyasaito/Desktop/個人開発/github_search_repository/Sources/GitHubSearch/GitHubAPIError.swift",
+        "/Users/yuyasaito/Desktop/個人開発/github_search_repository/Sources/GitHubSearch/GitHubClient.swift",
         "/Users/yuyasaito/Desktop/個人開発/github_search_repository/Sources/GitHubSearch/GitHubClientError.swift",
+        "/Users/yuyasaito/Desktop/個人開発/github_search_repository/Sources/GitHubSearch/GitHubRequest.swift",
+        "/Users/yuyasaito/Desktop/個人開発/github_search_repository/Sources/GitHubSearch/HTTPClient.swift",
+        "/Users/yuyasaito/Desktop/個人開発/github_search_repository/Sources/GitHubSearch/HTTPMethod.swift",
         "/Users/yuyasaito/Desktop/個人開発/github_search_repository/Sources/GitHubSearch/Repository.swift",
         "/Users/yuyasaito/Desktop/個人開発/github_search_repository/Sources/GitHubSearch/SearchResponse.swift",
         "/Users/yuyasaito/Desktop/個人開発/github_search_repository/Sources/GitHubSearch/User.swift"
@@ -169,11 +219,19 @@
         },
         {
           "kind" : "file",
+          "name" : "/Users/yuyasaito/Desktop/個人開発/github_search_repository/Tests/GitHubSearchTests/GitHubClientTests.swift"
+        },
+        {
+          "kind" : "file",
           "name" : "/Users/yuyasaito/Desktop/個人開発/github_search_repository/Tests/GitHubSearchTests/RepositoryTests.swift"
         },
         {
           "kind" : "file",
           "name" : "/Users/yuyasaito/Desktop/個人開発/github_search_repository/Tests/GitHubSearchTests/SearchResponseTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yuyasaito/Desktop/個人開発/github_search_repository/Tests/GitHubSearchTests/StubHTTPClient.swift"
         },
         {
           "kind" : "file",
@@ -198,8 +256,10 @@
       "objects" : [
         "/Users/yuyasaito/Desktop/個人開発/github_search_repository/.build/arm64-apple-macosx/debug/GitHubSearchTests.build/ExampleJSON.swift.o",
         "/Users/yuyasaito/Desktop/個人開発/github_search_repository/.build/arm64-apple-macosx/debug/GitHubSearchTests.build/GitHubAPIErrorTests.swift.o",
+        "/Users/yuyasaito/Desktop/個人開発/github_search_repository/.build/arm64-apple-macosx/debug/GitHubSearchTests.build/GitHubClientTests.swift.o",
         "/Users/yuyasaito/Desktop/個人開発/github_search_repository/.build/arm64-apple-macosx/debug/GitHubSearchTests.build/RepositoryTests.swift.o",
         "/Users/yuyasaito/Desktop/個人開発/github_search_repository/.build/arm64-apple-macosx/debug/GitHubSearchTests.build/SearchResponseTests.swift.o",
+        "/Users/yuyasaito/Desktop/個人開発/github_search_repository/.build/arm64-apple-macosx/debug/GitHubSearchTests.build/StubHTTPClient.swift.o",
         "/Users/yuyasaito/Desktop/個人開発/github_search_repository/.build/arm64-apple-macosx/debug/GitHubSearchTests.build/UserTests.swift.o"
       ],
       "otherArguments" : [
@@ -264,11 +324,19 @@
         },
         {
           "kind" : "file",
+          "name" : "/Users/yuyasaito/Desktop/個人開発/github_search_repository/.build/arm64-apple-macosx/debug/GitHubSearchTests.build/GitHubClientTests.swift.o"
+        },
+        {
+          "kind" : "file",
           "name" : "/Users/yuyasaito/Desktop/個人開発/github_search_repository/.build/arm64-apple-macosx/debug/GitHubSearchTests.build/RepositoryTests.swift.o"
         },
         {
           "kind" : "file",
           "name" : "/Users/yuyasaito/Desktop/個人開発/github_search_repository/.build/arm64-apple-macosx/debug/GitHubSearchTests.build/SearchResponseTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yuyasaito/Desktop/個人開発/github_search_repository/.build/arm64-apple-macosx/debug/GitHubSearchTests.build/StubHTTPClient.swift.o"
         },
         {
           "kind" : "file",
@@ -283,8 +351,10 @@
       "sources" : [
         "/Users/yuyasaito/Desktop/個人開発/github_search_repository/Tests/GitHubSearchTests/ExampleJSON.swift",
         "/Users/yuyasaito/Desktop/個人開発/github_search_repository/Tests/GitHubSearchTests/GitHubAPIErrorTests.swift",
+        "/Users/yuyasaito/Desktop/個人開発/github_search_repository/Tests/GitHubSearchTests/GitHubClientTests.swift",
         "/Users/yuyasaito/Desktop/個人開発/github_search_repository/Tests/GitHubSearchTests/RepositoryTests.swift",
         "/Users/yuyasaito/Desktop/個人開発/github_search_repository/Tests/GitHubSearchTests/SearchResponseTests.swift",
+        "/Users/yuyasaito/Desktop/個人開発/github_search_repository/Tests/GitHubSearchTests/StubHTTPClient.swift",
         "/Users/yuyasaito/Desktop/個人開発/github_search_repository/Tests/GitHubSearchTests/UserTests.swift"
       ],
       "tempsPath" : "/Users/yuyasaito/Desktop/個人開発/github_search_repository/.build/arm64-apple-macosx/debug/GitHubSearchTests.build",
@@ -400,8 +470,13 @@
       "github_search_repository",
       "-incremental",
       "-c",
+      "/Users/yuyasaito/Desktop/個人開発/github_search_repository/Sources/GitHubSearch/GitHubAPI.swift",
       "/Users/yuyasaito/Desktop/個人開発/github_search_repository/Sources/GitHubSearch/GitHubAPIError.swift",
+      "/Users/yuyasaito/Desktop/個人開発/github_search_repository/Sources/GitHubSearch/GitHubClient.swift",
       "/Users/yuyasaito/Desktop/個人開発/github_search_repository/Sources/GitHubSearch/GitHubClientError.swift",
+      "/Users/yuyasaito/Desktop/個人開発/github_search_repository/Sources/GitHubSearch/GitHubRequest.swift",
+      "/Users/yuyasaito/Desktop/個人開発/github_search_repository/Sources/GitHubSearch/HTTPClient.swift",
+      "/Users/yuyasaito/Desktop/個人開発/github_search_repository/Sources/GitHubSearch/HTTPMethod.swift",
       "/Users/yuyasaito/Desktop/個人開発/github_search_repository/Sources/GitHubSearch/Repository.swift",
       "/Users/yuyasaito/Desktop/個人開発/github_search_repository/Sources/GitHubSearch/SearchResponse.swift",
       "/Users/yuyasaito/Desktop/個人開発/github_search_repository/Sources/GitHubSearch/User.swift",
@@ -469,8 +544,10 @@
       "-c",
       "/Users/yuyasaito/Desktop/個人開発/github_search_repository/Tests/GitHubSearchTests/ExampleJSON.swift",
       "/Users/yuyasaito/Desktop/個人開発/github_search_repository/Tests/GitHubSearchTests/GitHubAPIErrorTests.swift",
+      "/Users/yuyasaito/Desktop/個人開発/github_search_repository/Tests/GitHubSearchTests/GitHubClientTests.swift",
       "/Users/yuyasaito/Desktop/個人開発/github_search_repository/Tests/GitHubSearchTests/RepositoryTests.swift",
       "/Users/yuyasaito/Desktop/個人開発/github_search_repository/Tests/GitHubSearchTests/SearchResponseTests.swift",
+      "/Users/yuyasaito/Desktop/個人開発/github_search_repository/Tests/GitHubSearchTests/StubHTTPClient.swift",
       "/Users/yuyasaito/Desktop/個人開発/github_search_repository/Tests/GitHubSearchTests/UserTests.swift",
       "-I",
       "/Users/yuyasaito/Desktop/個人開発/github_search_repository/.build/arm64-apple-macosx/debug/Modules",
@@ -630,11 +707,31 @@
         },
         {
           "kind" : "file",
+          "name" : "/Users/yuyasaito/Desktop/個人開発/github_search_repository/Sources/GitHubSearch/GitHubAPI.swift"
+        },
+        {
+          "kind" : "file",
           "name" : "/Users/yuyasaito/Desktop/個人開発/github_search_repository/Sources/GitHubSearch/GitHubAPIError.swift"
         },
         {
           "kind" : "file",
+          "name" : "/Users/yuyasaito/Desktop/個人開発/github_search_repository/Sources/GitHubSearch/GitHubClient.swift"
+        },
+        {
+          "kind" : "file",
           "name" : "/Users/yuyasaito/Desktop/個人開発/github_search_repository/Sources/GitHubSearch/GitHubClientError.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yuyasaito/Desktop/個人開発/github_search_repository/Sources/GitHubSearch/GitHubRequest.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yuyasaito/Desktop/個人開発/github_search_repository/Sources/GitHubSearch/HTTPClient.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yuyasaito/Desktop/個人開発/github_search_repository/Sources/GitHubSearch/HTTPMethod.swift"
         },
         {
           "kind" : "file",
@@ -668,11 +765,19 @@
         },
         {
           "kind" : "file",
+          "name" : "/Users/yuyasaito/Desktop/個人開発/github_search_repository/Tests/GitHubSearchTests/GitHubClientTests.swift"
+        },
+        {
+          "kind" : "file",
           "name" : "/Users/yuyasaito/Desktop/個人開発/github_search_repository/Tests/GitHubSearchTests/RepositoryTests.swift"
         },
         {
           "kind" : "file",
           "name" : "/Users/yuyasaito/Desktop/個人開発/github_search_repository/Tests/GitHubSearchTests/SearchResponseTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yuyasaito/Desktop/個人開発/github_search_repository/Tests/GitHubSearchTests/StubHTTPClient.swift"
         },
         {
           "kind" : "file",
@@ -704,11 +809,31 @@
         },
         {
           "kind" : "file",
+          "name" : "/Users/yuyasaito/Desktop/個人開発/github_search_repository/.build/arm64-apple-macosx/debug/GitHubSearch.build/GitHubAPI.swift.o"
+        },
+        {
+          "kind" : "file",
           "name" : "/Users/yuyasaito/Desktop/個人開発/github_search_repository/.build/arm64-apple-macosx/debug/GitHubSearch.build/GitHubAPIError.swift.o"
         },
         {
           "kind" : "file",
+          "name" : "/Users/yuyasaito/Desktop/個人開発/github_search_repository/.build/arm64-apple-macosx/debug/GitHubSearch.build/GitHubClient.swift.o"
+        },
+        {
+          "kind" : "file",
           "name" : "/Users/yuyasaito/Desktop/個人開発/github_search_repository/.build/arm64-apple-macosx/debug/GitHubSearch.build/GitHubClientError.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yuyasaito/Desktop/個人開発/github_search_repository/.build/arm64-apple-macosx/debug/GitHubSearch.build/GitHubRequest.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yuyasaito/Desktop/個人開発/github_search_repository/.build/arm64-apple-macosx/debug/GitHubSearch.build/HTTPClient.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yuyasaito/Desktop/個人開発/github_search_repository/.build/arm64-apple-macosx/debug/GitHubSearch.build/HTTPMethod.swift.o"
         },
         {
           "kind" : "file",
@@ -732,11 +857,19 @@
         },
         {
           "kind" : "file",
+          "name" : "/Users/yuyasaito/Desktop/個人開発/github_search_repository/.build/arm64-apple-macosx/debug/GitHubSearchTests.build/GitHubClientTests.swift.o"
+        },
+        {
+          "kind" : "file",
           "name" : "/Users/yuyasaito/Desktop/個人開発/github_search_repository/.build/arm64-apple-macosx/debug/GitHubSearchTests.build/RepositoryTests.swift.o"
         },
         {
           "kind" : "file",
           "name" : "/Users/yuyasaito/Desktop/個人開発/github_search_repository/.build/arm64-apple-macosx/debug/GitHubSearchTests.build/SearchResponseTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yuyasaito/Desktop/個人開発/github_search_repository/.build/arm64-apple-macosx/debug/GitHubSearchTests.build/StubHTTPClient.swift.o"
         },
         {
           "kind" : "file",

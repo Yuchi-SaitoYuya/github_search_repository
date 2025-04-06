@@ -83,9 +83,9 @@ extension GitHubAPIError {
             "message": "Validation Failed",
             "errors": [
                 {
-                    "resource": "Search",        // エラーが発生した対象
-                    "field": "q",               // 検索クエリ(q)が欠落
-                    "code": "missing"           // エラー種別: 欠落
+                    "resource": "Search",
+                    "field": "q",
+                    "code": "missing"
                 }
             ],
             "documentation_url": "https://developer.github.com/v3/search"

@@ -2,9 +2,12 @@ public enum GitHubClientError: Error {
     // 通信に失敗
     case connectionError(Error)
 
-    // レスポンスの解釈に失敗
+    // JSONの構造エラーなどのデコード失敗
     case responseParseError(Error)
 
-    // APIからエラーレスポンスを受け取った
+    // GitHubのAPIから返されたエラー（message付き）
     case apiError(GitHubAPIError)
+
+    // ✅ GitHubAPIErrorとしてのデコードに失敗（オプション）
+    case decodingError(GitHubAPIError)
 }

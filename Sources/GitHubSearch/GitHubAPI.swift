@@ -1,3 +1,5 @@
+import Foundation
+
 // GitHub APIの各リクエストをまとめる名前空間クラス（インスタンス化不要）
 public final class GitHubAPI {
 
@@ -7,6 +9,11 @@ public final class GitHubAPI {
     public struct SearchRepositories: GitHubRequest {
         // 検索クエリ（例: "swift"）
         public let keyword: String
+
+        // ✅ 明示的に public init を追加（テストからアクセス可能にする）
+        public init(keyword: String) {
+            self.keyword = keyword
+        }
 
         // レスポンス型（SearchResponse<Repository>）
         public typealias Response = SearchResponse<Repository>

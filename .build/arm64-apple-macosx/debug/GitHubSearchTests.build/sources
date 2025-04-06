@@ -1,5 +1,7 @@
 '/Users/yuyasaito/Desktop/個人開発/github_search_repository/Tests/GitHubSearchTests/ExampleJSON.swift'
 '/Users/yuyasaito/Desktop/個人開発/github_search_repository/Tests/GitHubSearchTests/GitHubAPIErrorTests.swift'
+'/Users/yuyasaito/Desktop/個人開発/github_search_repository/Tests/GitHubSearchTests/GitHubClientTests.swift'
 '/Users/yuyasaito/Desktop/個人開発/github_search_repository/Tests/GitHubSearchTests/RepositoryTests.swift'
 '/Users/yuyasaito/Desktop/個人開発/github_search_repository/Tests/GitHubSearchTests/SearchResponseTests.swift'
+'/Users/yuyasaito/Desktop/個人開発/github_search_repository/Tests/GitHubSearchTests/StubHTTPClient.swift'
 '/Users/yuyasaito/Desktop/個人開発/github_search_repository/Tests/GitHubSearchTests/UserTests.swift'
